@@ -1,0 +1,109 @@
+html, body{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	width: 80vw;
+	margin: 30px auto;
+	font-family: 'Rambla', sans-serif;
+	font-size: 12px;
+	background-color: #EFEFEF;
+}
+
+#header{
+	width: 100%;
+	height: 100px;
+}
+
+#header #name{
+	line-height: 100px;
+	font-size: 3rem;
+	text-shadow: 0px 1px 0px #fff;
+}
+
+#header #name #title{
+	font-size: 2rem;
+	color: #999;
+}
+/*#container{
+	width: 100%;
+	height: 500px;
+	background-color: green;
+	overflow: scroll;
+}*/
+
+#footer{
+	width: 100%;
+	height: 100px;
+	background-color: yellow;
+}
+
+#main{
+	
+	width: 100%;
+	background-color: #FF00FF;
+	height: 500px;
+}
+
+#work{
+	font-size: 1.5rem;
+	width: 100%;
+	/*background-color: #882266;*/
+	height: 500px;
+}
+
+#work .company .name{
+	font-size: 1.5rem;
+	color: #882266;
+}
+
+#work .company .period{
+	font-size: 1rem;
+	color: #999;
+}
+
+#work .company .title{
+	font-size: 1rem;
+}
+
+#work .company{
+	width: 200px;
+	height: 100px;
+	/*background-color: #ddd;*/
+}
+
+#skills{
+	
+	width: 100%;
+	/*background-color: #00ffFF;*/
+	height: 800px;
+}
+
+#skills .skill {
+	height: 80px;
+}
+
+#skills .skill .level{
+	background-color: #C24E00;
+	height: 30px;
+	width: 200px;
+}
+#skills .skill .name{
+	font-size: 1.5rem;
+	color: #882266;
+}
+
+#portfolio{
+	
+	width: 100%;
+	background-color: blue;
+	height: 500px;
+}
+
+#contact{
+	
+	width: 100%;
+	background-color: #332242;
+	height: 500px;
+}
