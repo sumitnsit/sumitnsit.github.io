@@ -1,0 +1,27 @@
+.container{
+	margin-top: 40px;
+}
+
+.container:nth-child(1){
+	margin-top: 0px;
+}
+
+.skill-level{
+	background-color: #eDf0f6;
+	margin-bottom: 25px;
+	height: 26px;
+	border-radius: 2px;
+}
+
+.skill-level .level{
+
+	line-height: 26px;
+}
+
+.level:nth-child(2n){
+		background-color: #525D63 !important;
+}
+
+h4{
+	margin-bottom: 35px;
+}

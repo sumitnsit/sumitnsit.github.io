@@ -1,0 +1,160 @@
+%html
+	%head
+		%title Sumit Kapoor
+		%link{:rel => "stylesheet", :href => "bootstrap/css/bootstrap.min.css"}
+		%link{:rel => "stylesheet", :href => "styles/index.css"}
+		%meta{:name => "viewport", :content => "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"}
+
+
+	%body
+		.container{:style => "background-color: #ECECEC; border-top: 8px solid #396693"}
+			.row
+				.col-md-6
+					%h1{:style => "color: #556; line-height: 2em;"} Sumit Kapoor
+				.col-md-6{:style => "text-align: right;"}
+					%p{:style => "padding: 20px;"} Download my resume
+			.row{:style => "margin-bottom: 40px;"}
+				.col-md-7{:style => "border-right: 1px solid #d1d1d1; box-shadow: 1px 0px 0px #fff;"}
+					.row
+						.col-md-3
+							%img{:src => "images/profile.jpg", :width => "120px", :height => "120px", :style => "border-radius: 5px"}
+						.col-md-9
+							%h3{:style => "color: #707070; margin-bottom: 10px; margin-top: 0px; padding: 0px; font-size: 1.3em"} Full-Stack Developer
+							%p{:style => "color: #757575; font-size: 0.8em; text-shadow: 0px 1px 1px #fff;"}
+								This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.
+				.col-md-5
+					.row
+						.col-md-6
+							%p.glyphicon.glyphicon-phone 555.555.5555
+						.col-md-6
+							%p.glyphicon.glyphicon-cloud www.kapour.in
+					.row
+						.col-md-6
+							%p New Delhi
+						.col-md-6
+							%p sumit@kapour.in
+		.container{:style => "margin-top: 40px"}
+			.row
+				.col-md-6
+					%h4 Skills
+					.skill-level
+						.level Core Java
+					.skill-level
+						.level Core Java					
+					.skill-level
+						.level Core Java					
+					.skill-level
+						.level Core Java					
+					.skill-level
+						.level Core Java					
+				.col-md-6
+					%h4 Education
+		.container
+			%h4 Work Experience
+			.row
+				.col-md-6
+					.row
+						.col-md-6
+							%h5 Agnity
+						.col-md-6
+							.date March 2013 - Present
+					.row
+						.col-md-12
+							.job-title Technical Lead
+							%p
+								eMeter is a product based company which works in a Energy domain. eMeter has a product named EnergyIP, EnergyIP captures the complex relationships among devices, premises, customer accounts, users, applications, networks and services that must be managed in any Smart Grid. With its automated process and workflows, EnergyIP provides real-time information and automation to integrate enterprise systems and drive Smart Grid Management, acting as the â€œcentral nervous systemâ€ of your utility.
+
+				.col-md-6
+					.row
+						.col-md-6
+							%h5 Agnity
+						.col-md-6
+							.date March 2013 - Present
+					.row
+						.col-md-12
+							.job-title Technical Lead
+							%p
+								eMeter is a product based company which works in a Energy domain. eMeter has a product named EnergyIP, EnergyIP captures the complex relationships among devices, premises, customer accounts, users, applications, networks and services that must be managed in any Smart Grid. With its automated process and workflows, EnergyIP provides real-time information and automation to integrate enterprise systems and drive Smart Grid Management, acting as the â€œcentral nervous systemâ€ of your utility.
+
+			.row
+				.col-md-6
+					.row
+						.col-md-6
+							%h5 Agnity
+						.col-md-6
+							.date March 2013 - Present
+					.row
+						.col-md-12
+							.job-title Technical Lead
+							%p
+								eMeter is a product based company which works in a Energy domain. eMeter has a product named EnergyIP, EnergyIP captures the complex relationships among devices, premises, customer accounts, users, applications, networks and services that must be managed in any Smart Grid. With its automated process and workflows, EnergyIP provides real-time information and automation to integrate enterprise systems and drive Smart Grid Management, acting as the â€œcentral nervous systemâ€ of your utility.
+
+				.col-md-6
+					.row
+						.col-md-6
+							%h5 Agnity
+						.col-md-6
+							.date March 2013 - Present
+					.row
+						.col-md-12
+							.job-title Technical Lead
+							%p
+								eMeter is a product based company which works in a Energy domain. eMeter has a product named EnergyIP, EnergyIP captures the complex relationships among devices, premises, customer accounts, users, applications, networks and services that must be managed in any Smart Grid. With its automated process and workflows, EnergyIP provides real-time information and automation to integrate enterprise systems and drive Smart Grid Management, acting as the â€œcentral nervous systemâ€ of your utility.
+
+
+		.container
+			.row
+				.col-md-12
+					%h4 Employment Timeline
+					%canvas#timeline
+		.container	
+			.row
+				.col-md-12
+					%h4 Interests
+					%ul
+						%li Hugo movie fan
+						%li Activist for anonymous
+						%li Fine dining and wine collector
+						%li Travel enthusiast
+		.container
+			.row
+				.col-md-12
+					%h4 Portfolio
+			.row
+				.col-md-12
+					%ul.nav.nav-pills
+						%li
+							%a All
+						%li
+							%a Graphics
+						%li
+							%a Web
+			.row
+				.col-md-4
+					%img.img-rounded
+				.col-md-4
+					%img.img-rounded
+				.col-md-4
+					%img.img-rounded
+
+		.container
+			.row
+				.col-md-12
+					%h4 Contact
+					%form{:role => "form"}
+						.row
+							.col-md-6
+								%input.form-control{:type => "text", :placeholder => "First Name"}
+							.col-md-6
+								%input.form-control{:type => "text", :placeholder => "Last Name"}		
+						.row
+							.col-md-12
+								%input.form-control{:type => "email", :placeholder => "Email Address"}											
+						.row
+							.col-md-6
+								%input.form-control{:type => "text", :placeholder => "Company Name"}
+							.col-md-6
+								%input.form-control{:type => "text", :placeholder => "Telephone Number"}	
+						.row
+							.col-md-12
+								%textarea.form-control{:rows => 4}	
