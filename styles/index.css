@@ -100,3 +100,8 @@ body{
 	font-size: 0.9em;
 	color: #333;
 }
+
+.awardTitle{
+	font-weight: bold;
+	margin-top: 20px;
+}
