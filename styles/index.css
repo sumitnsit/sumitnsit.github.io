@@ -15,6 +15,11 @@
 	text-transform: uppercase;
 }
 
+.tech-used {
+	color: #304C79;
+	margin-bottom: 10px;
+}
+
 .skill-level .level{
 	color: #F4F4F4;
 	padding-left: 10px;
